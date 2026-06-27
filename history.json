@@ -1,0 +1,192 @@
+[
+  {
+    "id": "13e121b1",
+    "sender": "adam.harris@tutoralignerrtask.com",
+    "subject": "Join our community of AI training experts",
+    "body": "Hi Atharv, I hope you are having a great week. I am reaching out because we are looking for subject-matter experts to help shape the future of Generative AI at Alignerr. We work with professionals from diverse fields including software engineering, finance, and scientific research to create high-quality training data that improves AI performance. Our work is project-based and flexible, allowing you to contribute to projects that align with your specific expertise. If you are interested in applying your skills to cutting-edge AI development, I would love for you to join our community. The first step is to create your account and complete your profile here: https://app.alignerr.com/signup By completing the full signup process, including our skill assessments, you will unlock the ability to be matched with projects that fit your background. It is free to join, and there is no upfront commitment. If you have any questions, I am happy to help. Best regards, Adam Harris",
+    "verdict": "suspicious",
+    "risk_score": 65,
+    "confidence": "medium",
+    "behavioral_triggers": [
+      {
+        "trigger": "Authority Bias",
+        "evidence": "The first step is to create your account and complete your profile here: https://app",
+        "severity": "high"
+      },
+      {
+        "trigger": "Greed",
+        "evidence": "It is free to join, and there is no upfront commitment",
+        "severity": "medium"
+      }
+    ],
+    "rule_based_flags": [
+      "Authority impersonation detected: irs",
+      "Reward/greed bait detected: free"
+    ],
+    "ai_analysis": {
+      "psychological_tactics": [
+        "personalization",
+        "scarcity",
+        "social proof",
+        "curiosity"
+      ],
+      "intent": "phishing",
+      "reasoning": "The email uses a personalized greeting and claims to offer a valuable opportunity to contribute to cutting-edge AI development, which may evoke curiosity and a sense of importance. The email also creates a sense of scarcity by implying that the recipient's expertise is needed to shape the future of Generative AI. Additionally, the email uses social proof by mentioning that they work with professionals from diverse fields. The presence of a suspicious domain name and the request to create an account and complete a profile raise concerns about potential phishing. The already detected flags, such as authority impersonation and reward/greed bait, further support this assessment.",
+      "recommendation": "do not click on the link and do not provide any personal information"
+    },
+    "analyzed_at": "2026-06-27 18:09:29"
+  },
+  {
+    "id": "94197c0a",
+    "sender": "Credila <info@mailer.credila.com>",
+    "subject": "MANDHARE ATHARV DATTATRAY, Pune science grads are abroad right now, where are you heading?",
+    "body": "GET IN TOUCH!",
+    "verdict": "safe",
+    "risk_score": 29,
+    "confidence": "medium",
+    "behavioral_triggers": [
+      {
+        "trigger": "Urgency",
+        "evidence": "MANDHARE ATHARV DATTATRAY, Pune science grads are abroad right now, where are you heading? GET IN TOUCH!",
+        "severity": "medium"
+      }
+    ],
+    "rule_based_flags": [
+      "Urgency keywords detected: right now"
+    ],
+    "ai_analysis": {
+      "psychological_tactics": [
+        "curiosity",
+        "social proof",
+        "urgency"
+      ],
+      "intent": "phishing",
+      "reasoning": "The email attempts to evoke curiosity by mentioning the recipient's name and a specific group (Pune science grads), implying a sense of FOMO (fear of missing out). The phrase 'right now' creates a sense of urgency, and the overall tone may be an attempt to build trust through social proof. However, the email lacks specific details about the sender's purpose or the recipient's connection to the mentioned group, raising suspicions about its legitimacy.",
+      "recommendation": "avoid interacting with the email and do not respond or click on any potential links, report the email as suspicious"
+    },
+    "analyzed_at": "2026-06-27 18:05:00"
+  },
+  {
+    "id": "6021134f",
+    "sender": "security-alert@paypa1-support.xyz",
+    "subject": "URGENT: Your account has been suspended - Verify immediately",
+    "body": "Dear Customer, We have detected unauthorized access to your PayPal account. Your account has been temporarily locked due to suspicious activity. You must verify your identity immediately or your account will be permanently suspended within 24 hours. Click here to verify: http://paypal-secure-login.xyz/verify?ref=urgent. This is your final notice. Act now to avoid losing access to your funds. IT Security Team - PayPal Support",
+    "verdict": "phishing",
+    "risk_score": 100,
+    "confidence": "high",
+    "behavioral_triggers": [
+      {
+        "trigger": "Urgency",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      },
+      {
+        "trigger": "Fear",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      },
+      {
+        "trigger": "Authority Bias",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      }
+    ],
+    "rule_based_flags": [
+      "Urgency keywords detected: urgent, immediately, act now",
+      "Fear-based language detected: unauthorized, suspicious activity, detected",
+      "Authority impersonation detected: security team, paypal",
+      "Suspicious domain extension: .xyz",
+      "Domain contains numbers \u2014 possible typosquatting",
+      "Insecure HTTP link found: http://paypal-secure-login.xyz/verify?ref=urgent.",
+      "Suspicious domain in link: http://paypal-secure-login.xyz/verify?ref=urgent."
+    ],
+    "ai_analysis": {
+      "psychological_tactics": [
+        "urgency creation",
+        "fear induction",
+        "authority impersonation",
+        "scarcity exploitation"
+      ],
+      "intent": "phishing",
+      "reasoning": "The email exhibits multiple red flags, including urgency keywords, fear-based language, and authority impersonation. The suspicious domain extension, possible typosquatting, and insecure HTTP link further support the conclusion that this email is a phishing attempt. The email aims to manipulate the recipient into clicking on the malicious link, potentially leading to credential theft or malware installation.",
+      "recommendation": "do not interact with the email, report it to the legitimate PayPal support, and verify account status through the official PayPal website or mobile app"
+    },
+    "analyzed_at": "2026-06-27 17:55:09"
+  },
+  {
+    "id": "cbcf02a6",
+    "sender": "bank@gmail.com",
+    "subject": "Urgent",
+    "body": "Verify your account immediately.",
+    "verdict": "safe",
+    "risk_score": 36,
+    "confidence": "medium",
+    "behavioral_triggers": [
+      {
+        "trigger": "Urgency",
+        "evidence": "Urgent Verify your account immediately",
+        "severity": "high"
+      }
+    ],
+    "rule_based_flags": [
+      "Urgency keywords detected: urgent, immediately",
+      "Official-sounding email from free provider: gmail.com"
+    ],
+    "ai_analysis": {
+      "psychological_tactics": [
+        "creating a sense of urgency",
+        "authority manipulation by using an official-sounding email"
+      ],
+      "intent": "phishing",
+      "reasoning": "The email uses urgency keywords to create a sense of panic, prompting the recipient to act quickly without thinking. The use of a free email provider like Gmail for an official communication is also suspicious, as legitimate banks typically use their own domain. The lack of personalization and specific details about the account also suggests a phishing attempt.",
+      "recommendation": "do not respond or click on any links, and instead contact the bank directly through an official channel to verify the authenticity of the request"
+    },
+    "analyzed_at": "2026-06-26 21:07:56"
+  },
+  {
+    "id": "dd2ebdac",
+    "sender": "security-alert@paypa1-support.xyz",
+    "subject": "URGENT: Your account has been suspended - Verify immediately",
+    "body": "Dear Customer, We have detected unauthorized access to your PayPal account. Your account has been temporarily locked due to suspicious activity. You must verify your identity immediately or your account will be permanently suspended within 24 hours. Click here to verify: http://paypal-secure-login.xyz/verify?ref=urgent. This is your final notice. Act now to avoid losing access to your funds. IT Security Team - PayPal Support",
+    "verdict": "phishing",
+    "risk_score": 100,
+    "confidence": "high",
+    "behavioral_triggers": [
+      {
+        "trigger": "Urgency",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      },
+      {
+        "trigger": "Fear",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      },
+      {
+        "trigger": "Authority Bias",
+        "evidence": "URGENT: Your account has been suspended - Verify immediately Dear Customer, We have detected unauthorized access to your PayPal account",
+        "severity": "high"
+      }
+    ],
+    "rule_based_flags": [
+      "Urgency keywords detected: urgent, immediately, act now",
+      "Fear-based language detected: unauthorized, suspicious activity, detected",
+      "Authority impersonation detected: security team, paypal",
+      "Suspicious domain extension: .xyz",
+      "Domain contains numbers \u2014 possible typosquatting",
+      "Insecure HTTP link found: http://paypal-secure-login.xyz/verify?ref=urgent.",
+      "Suspicious domain in link: http://paypal-secure-login.xyz/verify?ref=urgent."
+    ],
+    "ai_analysis": {
+      "psychological_tactics": [
+        "urgency manipulation",
+        "fear appeal",
+        "authority impersonation"
+      ],
+      "intent": "phishing",
+      "reasoning": "The email attempts to create a sense of urgency and fear by stating the account will be permanently suspended within 24 hours, prompting the recipient to act quickly without verifying the authenticity of the email. The use of authority impersonation by claiming to be from the 'IT Security Team - PayPal Support' aims to establish trust. The insecure HTTP link and suspicious domain are indicative of a phishing attempt.",
+      "recommendation": "Do not click on the provided link. Instead, manually navigate to the official PayPal website to verify account status. Report the email to PayPal's support team and mark it as spam to prevent others from being targeted."
+    },
+    "analyzed_at": "2026-06-26 20:58:43"
+  }
+]

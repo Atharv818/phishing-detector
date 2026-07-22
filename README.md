@@ -6,6 +6,8 @@ with **LLM-powered psychological analysis** via Groq (Llama 3.3 70B).
 
 Built with FastAPI · Groq API · Llama 3.3 70B · Python · Pydantic
 
+🔗 **Live Demo:** https://phishing-detector-esjr.onrender.com/docs
+
 ---
 
 ## 🧠 How It Works

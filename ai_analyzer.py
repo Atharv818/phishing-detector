@@ -8,7 +8,7 @@ load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 SYSTEM_PROMPT = """
-You are an expert cybersecurity analyst specializing in 
+You are an expert cybersecurity analyst specializing in
 phishing detection and behavioral psychology.
 ...
 You must ALWAYS respond in valid JSON format only.
